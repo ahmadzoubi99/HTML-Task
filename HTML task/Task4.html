@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+</head>
+<body>
+    <h1>Fill in your information</h1>
+    <form action="/submit" method="post">
+
+        
+        <label for="firstname">First name :</label><br>
+        <input type="text" id="firstname" name="firstname" required><br>
+      
+        <label for="Lastname">Last name:</label><br>
+        <input type="text" id="Lastname" name="Lastname" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+      <br>
+      <br>
+      
+      <h2>Your Gender</h2>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="gender"> Mail </label>
+        <input type="radio" id="femail" name="gender" value="femail">
+        <label for="gender"> Femail</label>
+        <br><br>
+        <h2>Favorite Subjects</h2>
+        <input type="checkbox" name="c++" id="c++" value="c++">
+        <label for="c++" >c++</label>
+        <input type="checkbox" name="java" id="java" value="java">
+        <label for="java">Java</label>
+        <input type="checkbox" name="php" id="php" value="php">
+        <label for="php" >PHP</label>
+        <input type="checkbox" name="c#" id="c#" value="c#">
+        <label for="c#">C#</label>
+        <input type="checkbox" name="sql" id="sql" value="sql">
+        <label for="sql">sql</label>
+        <br>
+        <br>
+
+        <label for="city">City:</label>
+        <select id="cit" name="city">
+            <option>Amman</option>
+            <option selected>Irbid</option>
+            <option>azerka</option>
+            <option>petra</option>
+            <option>mean</option>
+        </select>
+        <br>
+        <br>
+        <label for="image">Upload Image</label>
+        <input type="file" name="image" id="image">
+        <br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea placeholder="write here" id="message" name="message" maxlength="200"  rows="4" cols="50"></textarea><br><br>
+  <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
